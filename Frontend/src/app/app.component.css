@@ -1,0 +1,22 @@
+.page-wrapper {
+  min-height: calc(100vh - 68px);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  main { padding: 1.5rem; }
+}
+
+@media (max-width: 480px) {
+  main { padding: 1.25rem 1rem; }
+}
